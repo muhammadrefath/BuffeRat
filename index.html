@@ -89,13 +89,27 @@
   </header>
 
   <nav>
+    <a href="#va">Vulnerability Assessment</a>
+    <a href="#pt">Penetration Testing</a>
     <a href="#workshops">Workshops</a>
     <a href="#red-team">Red Team</a>
     <a href="#phishing">Phishing</a>
-    <a href="#vapt">VAPT</a>
-    <a href="#pentest">Pentest</a>
     <a href="#startup">Startup Sprint</a>
   </nav>
+
+  <section id="va">
+    <h2>Vulnerability Assessment (VA)</h2>
+    <p>Our VA service focuses on identifying, quantifying, and prioritizing vulnerabilities in your infrastructure. We use automated scanners, manual review, and industry-standard benchmarks to ensure a comprehensive risk profile of your assets.</p>
+    <p>Weekly reports, CVSS-based risk ratings, and strategic remediation guidelines included.</p>
+    <a href="#" class="btn">Schedule an Assessment</a>
+  </section>
+
+  <section id="pt">
+    <h2>Penetration Testing (PT)</h2>
+    <p>Simulated cyberattacks to exploit security weaknesses before malicious actors do. Includes network, web application, API, and cloud infrastructure pentests.</p>
+    <p>Manual testing with detailed proof-of-concept reports, zero false positives, and remediation retesting.</p>
+    <a href="#" class="btn">Request a Test</a>
+  </section>
 
   <section id="workshops">
     <h2>Cybersecurity Workshops</h2>
@@ -116,18 +130,6 @@
     <a href="#" class="btn">Deploy a Campaign</a>
   </section>
 
-  <section id="vapt">
-    <h2>Vulnerability Assessment & Penetration Testing (VAPT)</h2>
-    <p>Thorough vulnerability assessments paired with deep manual penetration testing. Includes network, application, cloud, and endpoint testing with detailed reporting and remediation guidance.</p>
-    <a href="#" class="btn">Get VAPT Services</a>
-  </section>
-
-  <section id="pentest">
-    <h2>Web App & API Pentests</h2>
-    <p>Manual + automated testing with Burp Suite, OWASP Top 10 focus, AI-enhanced recon, zero false positives.</p>
-    <a href="#" class="btn">Request a Test</a>
-  </section>
-
   <section id="startup">
     <h2>Startup Security Sprint</h2>
     <p>14-day intensive security audit & fix for fast-scaling startups. Developer training, CVE patching, threat modeling.</p>
@@ -139,6 +141,7 @@
   </footer>
 
   <script>
+    // Optional: Add hacker terminal blink effect
     const header = document.querySelector("h1");
     setInterval(() => {
       header.style.opacity = header.style.opacity === "0.9" ? "1" : "0.9";
