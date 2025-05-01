@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BuffeRat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #0f0f0f;
+      color: #00ff00;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #00ff00;
+    }
+
+    .glow {
+      text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #00ff00;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    section {
+      margin: 40px 0;
+      padding: 20px;
+      border: 1px solid #00ff00;
+      border-radius: 10px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      font-size: 2rem;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    .btn {
+      background-color: #00ff00;
+      color: #000;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #00cc00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="glow">BuffeRat</h1>
+    <p>Elite Digital Offensive Security Forces ⚔️</p>
+  </header>
+
+  <nav>
+    <a href="#workshops">Workshops</a>
+    <a href="#red-team">Red Team</a>
+    <a href="#phishing">Phishing</a>
+    <a href="#vapt">VAPT</a>
+    <a href="#pentest">Pentest</a>
+    <a href="#startup">Startup Sprint</a>
+  </nav>
+
+  <section id="workshops">
+    <h2>Cybersecurity Workshops</h2>
+    <p><strong>For IT Teams:</strong> Hands-on exploit development, red/blue team collaboration, secure coding workshops, DevSecOps training.</p>
+    <p><strong>For Non-IT Teams:</strong> Cyber hygiene, phishing identification drills, secure communication practices, digital awareness training.</p>
+    <a href="#" class="btn">Book a Workshop</a>
+  </section>
+
+  <section id="red-team">
+    <h2>Red Team Simulations</h2>
+    <p>We simulate real-world attacks emulating APT groups using MITRE ATT&CK. Monthly threat reports & executive dashboards.</p>
+    <a href="#" class="btn">Book a Simulation</a>
+  </section>
+
+  <section id="phishing">
+    <h2>Social Engineering Campaigns</h2>
+    <p>Custom phishing scenarios, OSINT-driven targeting, realistic email templates. Measure & strengthen human security.</p>
+    <a href="#" class="btn">Deploy a Campaign</a>
+  </section>
+
+  <section id="vapt">
+    <h2>Vulnerability Assessment & Penetration Testing (VAPT)</h2>
+    <p>Thorough vulnerability assessments paired with deep manual penetration testing. Includes network, application, cloud, and endpoint testing with detailed reporting and remediation guidance.</p>
+    <a href="#" class="btn">Get VAPT Services</a>
+  </section>
+
+  <section id="pentest">
+    <h2>Web App & API Pentests</h2>
+    <p>Manual + automated testing with Burp Suite, OWASP Top 10 focus, AI-enhanced recon, zero false positives.</p>
+    <a href="#" class="btn">Request a Test</a>
+  </section>
+
+  <section id="startup">
+    <h2>Startup Security Sprint</h2>
+    <p>14-day intensive security audit & fix for fast-scaling startups. Developer training, CVE patching, threat modeling.</p>
+    <a href="#" class="btn">Launch the Sprint</a>
+  </section>
+
+  <footer>
+    &copy; 2025 BuffeRat | Hack the Future — Secure the Now.
+  </footer>
+
+  <script>
+    const header = document.querySelector("h1");
+    setInterval(() => {
+      header.style.opacity = header.style.opacity === "0.9" ? "1" : "0.9";
+    }, 500);
+  </script>
+</body>
+</html>
